@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Rubik';
+	src: url('/fonts/Rubik-Regular.woff') format('woff');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+	html,
+	body {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	html,
+	body {
+		font-size: 12px;
+	}
+}
